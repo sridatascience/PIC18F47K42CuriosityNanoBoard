@@ -15,6 +15,7 @@ volatile uint8_t add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p 
 void main() {
    volatile uint8_t a = 0x05;
    LATA = a;
+   m = LATA;
    volatile uint8_t c = 0x1F;
    TRISA = c;
    volatile uint8_t b =0x08;
